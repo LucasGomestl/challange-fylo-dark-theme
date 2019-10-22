@@ -193,15 +193,22 @@
 .signup-form
     display: grid
     grid-template-columns: 1fr minmax(160px, 30%)
+    grid-template-rows: repeat(2, max-content)
     grid-gap: 20px
     width: 100%
     >.input
         width: 100%
     >.btn
         width: 100%
+    >.msgError
+        margin-left: 15px
+        margin-top: -15px
     @media (max-width: 750px)
         grid-template-columns: 1fr
-
+        >.msgError
+            order: 1
+        >.btn
+            order: 2
 .page-footer
     display: grid
     grid-template-rows: 120px

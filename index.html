@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="img/favicon-32x32.png">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
     <title>Fylo</title>
 </head>
 <body>
@@ -151,8 +152,9 @@
                     If you have any questions, our suppor team would be happy to help you.
                 </p>
                 <form class="signup-form" action="#">
-                    <input type="text" class="input" placeholder="email@example.com" /> 
-                    <button class="btn">get started for free</button>
+                    <input type="text" class="input" name="email" placeholder="email@example.com" /> 
+                    <button class="submit btn">get started for free</button>
+                    <span class="msgError"></span>
                 </form>
             </article>
         </div>
@@ -212,4 +214,5 @@
     </footer>
         <!-- /FOOTER -->
 </body>
+<script src="js/formValidation.js"></script>
 </html>
