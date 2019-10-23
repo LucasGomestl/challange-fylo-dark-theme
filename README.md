@@ -23,12 +23,12 @@ Clone the repo using Git:
 git clone https://github.com/LucasGomestl/challange-fylo-dark-theme.git
 ```
 
-Install the dependencies and start the app:
+Install the dependencies:
 
 ```bash
 npm install
 ```
-then
+and start the app:
 
 ```bash
 gulp
