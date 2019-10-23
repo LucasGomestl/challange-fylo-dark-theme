@@ -13,7 +13,7 @@ Build using:
 
 - HTML5
 - CSS Grid
-- Jquery
+- Javascript
 
 ## Quick Start
 
